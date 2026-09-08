@@ -58,6 +58,11 @@ galleryItems.forEach(item => {
                 modalCon2.textContent = "Pixivに成人向け差分あり";
                 modalCon3.textContent = " ▷https://www.pixiv.net/artworks/149355795";
                 break;
+            case "🦊💖":
+                modalCon1.textContent = "Skebにてご依頼いただいたイラストです";
+                modalCon2.textContent = "Pixivに成人向け差分あり";
+                modalCon3.textContent = " ▷https://www.pixiv.net/artworks/149355795";
+                break;
             default:
                 modalCon1.textContent = "";
                 modalCon2.textContent = "";
