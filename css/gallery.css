@@ -52,6 +52,8 @@
 .gallery-line .gallery-wrap {
     width: 250px;
     height: 250px;
+    min-width: 50px;
+    min-height: 50px;
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
