@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'MainFont';
+  src: 
+	url('./font/ZenMaruGothic-Medium.ttf') format('truetype');
+}
+
+#key-visual{
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#key-visual .key-visual-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.borderline-dot {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    color: rgb(239, 172, 185);
+    font-size: 40px;
+}
+
+.sub-borderline-dot {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+    color: #99cad8;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+main {
+    font-family: MainFont;
+}
+
+main p{
+	color: rgb(80, 80, 80);
+    font-size: 20px;
+}
+
+.title{
+    color: #ef86a1;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
