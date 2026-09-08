@@ -117,13 +117,27 @@
                 <span class="gallery-describe-pixiv"><a href="https://www.pixiv.net/users/123080945" target="_blank">Pixiv</a></span>
                 をご覧ください
             </p>
-            <h1 class="gallery-comingsoon">Coming soon ......</h1>
+            <div class="gallery-line">
+                <span class="gallery-wrap">
+                    <img src="./img/original/icon/original_img18.jpg" data-full="./img/original/full/original_img18.jpg" class="gallery-img" alt="もちもちばにー💝">
+                </span>
+                <span class="gallery-wrap">
+                    <img src="./img/original/icon/original_img17.jpg" data-full="./img/original/full/original_img17.jpg" class="gallery-img" alt="旅人さん、海行きませんか？">
+                </span>
+                <span class="gallery-wrap">
+                    <img src="./img/original/icon/original_img16.jpg" data-full="./img/original/full/original_img16.jpg" class="gallery-img" alt="旅人さん……♡">
+                </span>
+                <span class="gallery-wrap">
+                    <img src="./img/original/icon/original_img15.jpg" data-full="./img/original/full/original_img15.jpg" class="gallery-img" alt="白バニー">
+                </span>
+                <span class="gallery-wrap">
+                    <img src="./img/original/icon/original_img14.jpg" data-full="./img/original/full/original_img14.jpg" class="gallery-img" alt="おにいちゃん、濡れちゃったね……💦">
+                </span>
+            </div>
             <div class="gallery-all-button">
-                <!--
                 <div class="gallery-all-button-wrap">
-                    <a href="" class="gallery-all-button-con">オリジナル作品一覧</a>
+                    <p class="gallery-all-button-con"><a href="">オリジナル作品一覧</a></p>
                 </div>
-                -->
             </div>
             <h1 class="gallery-sub-title">Works</h1>
             <p class="gallery-describe">
@@ -134,7 +148,22 @@
                 <span class="gallery-describe-pixiv"><a href="https://www.pixiv.net/users/123080945" target="_blank">Pixiv</a></span>
                 をご覧ください
             </p>
-            <h1 class="gallery-comingsoon">Coming soon ......</h1>
+            <p class="gallery-works-list"><a href="">◇過去のお仕事一覧はこちら</a></p>
+            <div class="gallery-line">
+                <span class="gallery-wrap">
+                    <img src="./img/works/icon/original_img2.jpg" data-full="./img/works/full/original_img2.jpg" class="gallery-img" alt="もちもちばにー💝">
+                </span>
+                <span class="gallery-wrap">
+                    <img src="./img/works/icon/original_img1.jpg" data-full="./img/works/full/original_img1.jpg" class="gallery-img" alt="旅人さん、海行きませんか？">
+                </span>
+            </div>
+            <div class="gallery-all-button">
+                <div class="gallery-all-button-wrap">
+                    <p class="gallery-all-button-con"><a href="">お仕事作品一覧</a></p>
+                </div>
+            </div>
+            
+            <p class="sub-borderline-dot">・・・・・・・・・</p>
         </div>
     </main>
     <footer>
@@ -144,8 +173,8 @@
     </footer>
     <div id="layer" class="js-modal"> 
         <div id="modal">
-            <div id="modal__content">
-                <span id="modal-img-wrap"></span>
+            <div id="modal-content">
+                <span id="modal-img-wrap">
                     <img id="modal-img" class="modal-content" src="" alt="拡大画像">
                 </span>
                 <span id="modal-txt-wrap">
@@ -156,13 +185,10 @@
                         <p id="modal-content1"></p>
                         <p id="modal-content2"></p>
                         <p id="modal-content3"></p>
-                        <p id="modal-content4"></p>
-                        <p id="modal-content5"></p>
-                        <p id="modal-content6"></p>
                     </div>
                 </span>
             </div>
-            <div id="modal__button-wrap">
+            <div id="modal-close-button-wrap">
                 <button class="close-button js-close-button">
                     <span></span>
                     <span></span>
@@ -171,5 +197,6 @@
         </div>
     </div>
     <script src="javascript/header.js"></script>
+    <script src="javascript/modal.js"></script>
 </body>
 </html>
