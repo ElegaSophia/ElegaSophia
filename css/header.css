@@ -36,6 +36,7 @@ header.is-hidden {
 }
 
 header #header-wrap {
+  position: relative;
     width: 80%;
     height: 80%;
     top: 0;
@@ -44,6 +45,11 @@ header #header-wrap {
     align-items: center;
     justify-content: space-between;
     display: flex;
+}
+
+.menu-button {
+  position: absolute;
+    display: none;
 }
 
 #logo-img-wrap {
@@ -77,4 +83,84 @@ header #header-wrap {
 
 #page-top {
     top: 180px;
+}
+
+@media screen and (max-width: 480px) {
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    right: 5px;
+    top: 70%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+  }
+
+  .menu-button span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+  }
+
+    header #header-wrap {
+        justify-content: center;
+    }
+
+    #header-menu-nav{
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 60%; 
+      height: 300%;
+      background-color: rgba(239, 172, 185, 1);
+      box-shadow: 2px 0 10px rgba(100, 100, 100, 0.3);
+      padding-top: 150px;
+      padding-left: 10%;
+      transition: left 0.3s ease; 
+      z-index: 1000;
+    }
+
+    #header-menu-nav #header-menu-group {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    #header-menu-nav.active {
+      left: 0; 
+    }
+
+
+    .menu-back span {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%; 
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0);
+      z-index: 999;
+      transition: background-color 0.3s ease; 
+    }
+
+    .menu-back.active span {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .menu-button.active span:nth-child(1) {
+      transform: rotate(45deg) translateY(11px);
+      background-color: black;
+    }
+    .menu-button.active span:nth-child(2) {
+      background-color: black;
+      opacity: 0; /* 中央の線を消す */
+    }
+    .menu-button.active span:nth-child(3) {
+      transform: rotate(-45deg) translateY(-11px);
+      background-color: black;
+    }
 }
