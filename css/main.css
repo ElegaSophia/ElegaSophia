@@ -33,6 +33,7 @@
     font-weight: bold;
 }
 
+
 main {
     font-family: MainFont;
 }
@@ -48,6 +49,26 @@ main p{
     font-weight: bold;
     justify-content: center;
     align-items: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    .borderline-dot {
+        margin: 20px 0;
+    }
+
+    main p{
+        font-size: 16px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+
+    .sub-borderline-dot {
+        margin: 20px 0;
+        font-size: 30px;
+    }
 }
 
 .subpage-title{
