@@ -47,3 +47,23 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media screen and (max-width: 480px) {
+    #contact-now {
+        font-size: 28px;
+    }
+
+    .contact-describe {
+        width: 92%;
+        margin: 0 4%;
+    }
+
+    #contact-mail-address{
+        font-size: 28px;
+    }
+
+    #contact-mail-address-add {
+        font-size: 20px;
+    }
+}
