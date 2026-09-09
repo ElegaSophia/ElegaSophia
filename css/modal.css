@@ -95,7 +95,7 @@
   max-height: 100%;
   width: auto;
   height: auto;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #modal-content #modal-txt-wrap {
