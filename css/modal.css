@@ -107,17 +107,21 @@
 
 #modal-txt-wrap #modal-title {
   margin: 5%;
+  min-width: 440px;
 }
 
 #modal-txt-wrap #modal-content1 {
   margin-top: 0%;
   margin-bottom: 0%;
+  min-width: 440px;
 }
 #modal-txt-wrap #modal-content2 {
   margin-top: 0%;
   margin-bottom: 0%;
+  min-width: 440px;
 }
 #modal-txt-wrap #modal-content3 {
   margin-top: 0%;
   margin-bottom: 0%;
+  min-width: 440px;
 }
