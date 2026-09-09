@@ -155,3 +155,28 @@
 .gallery-all-button-wrap:hover .gallery-all-button-con a {
     color: rgb(255, 255,255);
 }
+
+
+@media screen and (max-width: 480px) {
+    .gallery-sub-title {
+        font-size: 30px;
+    }
+
+    .gallery-line {
+        display: grid; 
+        width: 94%;
+        height: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2% 2%;
+        margin: 33px 0;
+        padding: 0 3%;
+    }
+
+    .gallery-line .gallery-wrap {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        border-radius: 5px;
+        justify-content: center;
+    }
+}
