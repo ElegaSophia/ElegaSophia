@@ -22,6 +22,7 @@
     justify-content: center;
     color: rgb(239, 172, 185);
     font-size: 40px;
+    object-fit: contain;
 }
 
 .sub-borderline-dot {
