@@ -48,20 +48,15 @@ galleryItems.forEach(item => {
                 modalCon2.textContent = "FANBOXに成人向け差分あり";
                 modalCon3.textContent = " ▷https://elega.fanbox.cc/posts/12112126";
                 break;
-            case "🩵🩷":
-                modalCon1.textContent = "よそ（雪平夏葵さん）の代理ちゃんと冬雪ちゃん";
-                modalCon2.textContent = "X (雪平夏葵さん)";
-                modalCon3.textContent = " ▷https://x.com/z27agxngf5";
+            case "白玻フスセ様 Skebリクエスト":
+                modalCon1.textContent = "オリジナルキャライラストを1枚、成人向け差分を多数描かせていただきました。";
+                modalCon2.textContent = "(2026)";
+                modalCon3.textContent = "";
                 break;
-            case "🦊🩵":
-                modalCon1.textContent = "Skebにてご依頼いただいたイラストです";
-                modalCon2.textContent = "Pixivに成人向け差分あり";
-                modalCon3.textContent = " ▷https://www.pixiv.net/artworks/149355795";
-                break;
-            case "🦊💖":
-                modalCon1.textContent = "Skebにてご依頼いただいたイラストです";
-                modalCon2.textContent = "Pixivに成人向け差分あり";
-                modalCon3.textContent = " ▷https://www.pixiv.net/artworks/149355795";
+            case "hana様 Skebリクエスト":
+                modalCon1.textContent = "オリジナルキャライラストを1枚、成人向け差分を多数描かせていただきました。";
+                modalCon2.textContent = "(2026)";
+                modalCon3.textContent = "";
                 break;
             default:
                 modalCon1.textContent = "";
