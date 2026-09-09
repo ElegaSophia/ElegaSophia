@@ -3,6 +3,8 @@
 <head>
     <title>Home - Kasumiso | えれが🐾🎨</title>
     <meta charset="UTF-8" \>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
     <link rel="icon" href="./img/elega_icon_sq.jpg">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
@@ -19,7 +21,12 @@
             <div id="logo-img-wrap">
                 <img src="./img/Kasumiso_logo.png" alt="アイコンの写真" class="logo-img" >
             </div>
-            <nav id="header-menu-nav">
+            <button class="menu-button" id="menu-button" aria-label="メニューボタン">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="header-menu-nav" class="header-menu-nav">
                 <ul id="header-menu-group">
                     <li class="header-menu-item"><a href="#">Top</a></li>
                     <li class="header-menu-item"><a href="#profile-id">Profile</a></li>
@@ -27,7 +34,8 @@
                     <li class="header-menu-item"><a href="#contact-id">Contact</a></li>
                     <li class="header-menu-item"><a href="#gallery-id">Gallery</a></li>
                 </ul>
-            </nav>
+            </nav>  
+            <div class="menu-back" id="menu-back"><span></span></div>
         </div>
     </header>
     <main>
@@ -199,5 +207,6 @@
     </div>
     <script src="javascript/header.js"></script>
     <script src="javascript/modal.js"></script>
+    <script src="javascript/menu-button.js"></script>
 </body>
 </html>
