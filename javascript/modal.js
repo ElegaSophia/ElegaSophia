@@ -80,5 +80,4 @@ galleryItems.forEach(item => {
 modalClose.addEventListener('click', () => { // xボタンをクリックしたときのイベントを登録
   modal.classList.remove('is-open'); 
   
-  modalImg.src = null;
 });
