@@ -50,6 +50,15 @@ main p{
     align-items: center;
 }
 
+.subpage-title{
+    margin-top: 100px;
+    color: #ef86a1;
+    font-size: 50px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
 #modal-txt-wrap h1{
     font-size: 40px;
 	color: rgb(30, 30, 30);
