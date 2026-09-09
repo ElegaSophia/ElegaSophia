@@ -161,6 +161,28 @@
     .gallery-sub-title {
         font-size: 30px;
     }
+    
+    .gallery-describe {
+        margin: 0 4%;
+    }
+
+    .sub-gallery-line {
+        min-width: 0;
+        height: auto;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+        grid-gap: 3% 1%;
+        padding: 50px 2%;
+    }
+
+    .sub-gallery-line .sub-gallery-wrap {
+        justify-content: center;
+        width: auto;
+        height: auto;
+        aspect-ratio: 1;
+        min-width: 0;
+        border-radius: 5px;
+    }
 
     .gallery-line {
         display: grid; 
